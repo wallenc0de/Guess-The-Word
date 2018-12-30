@@ -34,10 +34,8 @@ def start_game():
             if word == answer:
                 print('You guessed the word.\n')
             else:
-                print('You did not guess the word.\nGAME OVER')
-                break
-    print('\nYou won the game!!')        
-
+                end_game()
+                break    
 
 def end_game():
     print('You did not guess the word. Game Over.')
