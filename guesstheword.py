@@ -6,20 +6,6 @@ Questions = [
     ["3) What is the name of the company that makes operational systems in C++?: ", "Microsoft"]
 ]
 
-
-def y_n():
-    while True:
-        yes_no = input('Are you ready? (Y/N): ')
-        if yes_no == 'Y':
-            print('\n')
-            start_game()
-            break
-        elif yes_no == 'N':
-            print('Okay, ending the program.')
-            break
-        else:
-            print('Error.')
-
 def start_game():
     for question, answer in Questions:
             word = input(question)
@@ -32,4 +18,4 @@ def start_game():
 def end_game():
     print('You did not guess the word. Game Over.')
 
-y_n()
+start_game()
