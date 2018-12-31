@@ -1,5 +1,3 @@
-# Simple 'Guess The Word' game that can be used for practice purpose]
-
 Questions = [
     ["1) What's the name of the animal that has a long neck?: ", "Giraffe"],
     ["2) Whats the name of the fruit that Steve Jobs used for his company?: ", "Apple"],
